@@ -31,3 +31,9 @@ register(
     max_episode_steps=200,
 )
 
+register(
+    id='DressingStSawyer-v1',
+    entry_point='assistive_gym.envs:DressingStSawyerEnv',
+    max_episode_steps=200,
+)
+
